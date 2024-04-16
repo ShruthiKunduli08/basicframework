@@ -15,3 +15,9 @@ There are two automation in this framework
 3. You'll need an IDE. We suggest downloading and installing IntelliJ IDEA.
 4. Configure Maven [Explain me how](https://www.jetbrains.com/help/idea/convert-a-regular-project-into-a-maven-project.html#develop_with_maven)
 5.validate the chrome driver and chrome version installed in your system is supported
+
+# How to run:
+1. Clone the repository to your local system
+2. Make sure after the project is launched in the IDE for the first time, required Java SDK  is enabled via the Project Settings
+3.Run mvn clean install command to build the Maven project
+4. Run the Test using mvn test
