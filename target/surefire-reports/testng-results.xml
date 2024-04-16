@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-16T12:56:55 BST" name="Command line suite" finished-at="2024-04-16T12:57:27 BST" duration-ms="31810">
+    <groups>
+    </groups>
+    <test started-at="2024-04-16T12:56:55 BST" name="Command line test" finished-at="2024-04-16T12:57:27 BST" duration-ms="31810">
+      <class name="demoProject.UITest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:demoProject.UITest@69a10787]" started-at="2024-04-16T12:56:55 BST" name="setUp" finished-at="2024-04-16T12:57:00 BST" duration-ms="4509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkProductName()[pri:0, instance:demoProject.UITest@69a10787]" started-at="2024-04-16T12:57:00 BST" name="checkProductName" finished-at="2024-04-16T12:57:23 BST" duration-ms="22881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkProductName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:demoProject.UITest@69a10787]" started-at="2024-04-16T12:57:23 BST" name="tearDown" finished-at="2024-04-16T12:57:24 BST" duration-ms="845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- demoProject.UITest -->
+      <class name="test.java.demoProject.APITest">
+        <test-method signature="verifyAPI()[pri:0, instance:test.java.demoProject.APITest@2d127a61]" started-at="2024-04-16T12:57:24 BST" name="verifyAPI" finished-at="2024-04-16T12:57:26 BST" duration-ms="2407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAPI -->
+        <test-method signature="verifyDeleteAPI()[pri:0, instance:test.java.demoProject.APITest@2d127a61]" started-at="2024-04-16T12:57:26 BST" name="verifyDeleteAPI" finished-at="2024-04-16T12:57:26 BST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteAPI -->
+        <test-method signature="verifyPOSTAPI()[pri:0, instance:test.java.demoProject.APITest@2d127a61]" started-at="2024-04-16T12:57:26 BST" name="verifyPOSTAPI" finished-at="2024-04-16T12:57:26 BST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPOSTAPI -->
+        <test-method signature="verifyPUTAPI()[pri:0, instance:test.java.demoProject.APITest@2d127a61]" started-at="2024-04-16T12:57:26 BST" name="verifyPUTAPI" finished-at="2024-04-16T12:57:27 BST" duration-ms="813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPUTAPI -->
+      </class> <!-- test.java.demoProject.APITest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
